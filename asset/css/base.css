@@ -1,0 +1,14 @@
+:root{
+    --color-heading: rgb(0, 0, 0); 
+    --color-headline: rgb(241, 241, 241); 
+}
+* {
+    box-sizing: inherit;
+    padding: 0; 
+    margin: 0;
+}
+html{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    font-family: Montserrat, sans-serif;
+}
