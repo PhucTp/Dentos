@@ -92,3 +92,51 @@ function changeContent() {
 
 setInterval(changeContent, 2000);
 
+
+
+// Lấy các phần tử HTML
+var daysElement = document.getElementById("days");
+var hoursElement = document.getElementById("hours");
+var minutesElement = document.getElementById("minutes");
+var secondsElement = document.getElementById("seconds");
+
+// Tạo ngày hiện tại và ngày kết thúc (1 ngày sau ngày hiện tại)
+var currentDate = new Date();
+var endDate = new Date(currentDate.getTime() + 240   * 60 * 60 * 1000); // Thêm 1 ngày (24 giờ)
+
+// Cập nhật countdown mỗi giây
+var countdownInterval = setInterval(function() {
+    // Lấy thời gian hiện tại
+    var currentTime = new Date();
+
+    // Tính toán thời gian còn lại (tính bằng mili giây)
+    var timeLeft = endDate - currentTime;
+
+    // Tính toán số ngày, giờ, phút, giây từ thời gian còn lại
+    var days = Math.floor(timeLeft / (1000 * 60 * 60 * 24));
+    var hours = Math.floor((timeLeft / (1000 * 60 * 60)) % 24);
+    var minutes = Math.floor((timeLeft / (1000 * 60)) % 60);
+    var seconds = Math.floor((timeLeft / 1000) % 60);
+
+    // Hiển thị giá trị countdown trong các phần tử HTML
+    daysElement.innerHTML = formatTime(days);
+    hoursElement.innerHTML = formatTime(hours);
+    minutesElement.innerHTML = formatTime(minutes);
+    secondsElement.innerHTML = formatTime(seconds);
+
+    // Kiểm tra nếu countdown đã kết thúc
+    if (timeLeft < 0) {
+        clearInterval(countdownInterval);
+        daysElement.innerHTML = "00";
+        hoursElement.innerHTML = "00";
+        minutesElement.innerHTML = "00";
+        secondsElement.innerHTML = "00";
+    }
+}, 1000);
+
+// Hàm định dạng thời gian
+function formatTime(time) {
+    return time < 10 ? "0" + time : time;
+}
+
+

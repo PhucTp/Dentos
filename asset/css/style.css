@@ -1,4 +1,4 @@
-
+ 
 
 .ladi-section__background{
     background: url('../img/ladibackground/image1.jpg') top center / cover no-repeat;
@@ -779,6 +779,9 @@
 /* Ladi-footing */
 .ladi-footing{
     background-color: #23233A;
+    position: absolute;
+    right: 0;
+    left: 0;
 }
 .clinic-icon__img
 {

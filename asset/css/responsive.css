@@ -1,10 +1,13 @@
 @media(max-width: 739px){
-    .ladi-wrapper{
-        width: 400px;
+    .ladi-headline {
+        margin-top: 16px;
+        position: relative;
+        /* left: 20px; */
+        left: 0;
     }
     .ladi-content__heading{
         width:  100%;
-        font-size: 22px;
+        font-size: 18px;
     }
     .ladi-section__background {
         background: url(../img/ladibackground/img2.jpg) top center / cover no-repeat;
@@ -49,10 +52,10 @@
         margin-top: 5px;
     }
     .ladi-model {
-        height: 1507vh;
+        height: 1526vh;
     }
     .ladi-item__img {
-        width: 380px;
+        width: 357px;
         height: 250px;
     }
     .ladi-item__sub {
@@ -115,21 +118,50 @@
     }
     .ladi-feedback__right i:last-child {
         top: 24%;
-        left: 88%;
+        left: 89%;
         font-size: 24px;
     }
-    .ladi-feedback__left i:first-child {
+    .ladi-feedback__right i:last-child {
         position: absolute;
-        top: 74%;
-        right: 90%;
+        color: #000;
+        font-size: 20px;
+        padding: 10px 9px;
+    }
+    .ladi-feedback__left i:last-child {
+        position: absolute;
+        top: 75%;
+        right: 19px;
         font-size: 24px;
-      
     }
     .ladi-feedback__left i:last-child {
         position: absolute;
         top: 75%;
         right: -1px;
         font-size: 24px;
+    }
+    .ladi-feedback__left i:first-child {
+        position: absolute;
+        top: 75%;
+        right: 91%;
+        color: #000;
+        font-size: 24px;
+        padding: 12px 20px;
+    }
+    .ladi-feedback__right i:first-child {
+        position: absolute;
+        top: 46%;
+        left: -18px;
+        color: #000;
+        font-size: 20px;
+        padding: 12px 20px;
+    }
+    .ladi-feedback__right i:first-child {
+        position: absolute;
+        top: 24%;
+        left: -19px;
+        color: #000;
+        font-size: 24px;
+        padding: 12px 20px;
     }
     .video-container {
         margin-top: 32px;
@@ -141,12 +173,12 @@
         margin-left: 0;
     }
     .video-content video {
-        width: 398px;
+        width: 370px;
         height: 259px;
         object-fit: cover;
     }
     .video-content__left video {
-        width: 398px;
+        width: 370px;
         height: 259px;
         object-fit: cover;
     }
@@ -157,7 +189,7 @@
     }
     .vocher {
         background-color: #23233a;
-        width: 400px;
+        width: 100%;
         margin-top: 40px;
         border-radius: 12px;
         margin-left: 0px;
@@ -172,7 +204,7 @@
         padding-top: 30px;
         display: block;
         padding: 19px 48px;
-        width: 381px;
+        width: 100%;
         background-color: #fff;
         border-radius: 12px;
         text-decoration: none;
@@ -190,7 +222,7 @@
         flex-direction: column;
     }
     .service-img{
-        width: 398px;
+        width: 370px;
     }
     .ladi-number__percent {
         position: absolute;
@@ -199,7 +231,7 @@
     }
     .teeth-section {
         display: flex;
-        width: 398px;
+        width: 370px;
         background-color: #ffff;
         align-items: center;
         border-radius: 12px;
@@ -214,5 +246,13 @@
     }
     .ad-content{
         margin-top: 40px;
+    }
+    .model-heading {
+        margin-top: 25px;
+        font-size: 18px;
+        font-weight: bold;
+        line-height: 1;
+        width: 370px;
+        color: rgb(38, 38, 38);
     }
 }
