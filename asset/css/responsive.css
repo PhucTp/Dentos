@@ -31,8 +31,8 @@
     }
     .ladi-number__percent {
         position: absolute;
-        left: 74%;
-        top: 49%;
+        left: 72%;
+        top: 324px;
     }
     #ladi-vocher__number {
         font-size: 30px;
@@ -52,10 +52,10 @@
         margin-top: 5px;
     }
     .ladi-model {
-        height: 1526vh;
+        height: 1220vh;
     }
     .ladi-item__img {
-        width: 357px;
+        width: 377px;
         height: 250px;
     }
     .ladi-item__sub {
@@ -226,8 +226,8 @@
     }
     .ladi-number__percent {
         position: absolute;
-        left: 72%;
-        top: -28%;
+        left: 68%;
+        top: 35%;
     }
     .teeth-section {
         display: flex;

@@ -59,7 +59,7 @@
 
 }
 .ladi-number__first{
-    font-size: 167px;
+    font-size: 128px;
     color:rgb(242, 211, 182);
     position: relative;
     margin-top: -17px;
@@ -67,9 +67,9 @@
 }
 .ladi-number__percent{
     position: absolute;
-    left: 59%;
-    top: 46%;
-    font-size: 55px;
+    left: 57%;
+    top: 47%;
+    font-size: 48px;
     color: #f5e5d3;
 }
 .ladi-price__main{
@@ -193,7 +193,7 @@
     background-color: #181621; 
     width: 100%; 
     position: relative;
-    height: 720vh;
+    height: 800vh;
 }
 .ladi-content{
     position: absolute;
