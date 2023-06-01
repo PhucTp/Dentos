@@ -11,7 +11,7 @@
     }
     .ladi-section__background {
         background: url(../img/ladibackground/img2.jpg) top center / cover no-repeat;
-        height: 100vh;
+        height: 80vh;
         position: relative;
     }
     .ladi-headline__text {
@@ -29,11 +29,7 @@
     .ladi-vocher__text {
         font-size: 13px;
     }
-    .ladi-number__percent {
-        position: absolute;
-        left: 72%;
-        top: 324px;
-    }
+
     #ladi-vocher__number {
         font-size: 30px;
     }
@@ -52,7 +48,7 @@
         margin-top: 5px;
     }
     .ladi-model {
-        height: 1220vh;
+        height: 1190vh;
     }
     .ladi-item__img {
         width: 377px;
@@ -173,12 +169,12 @@
         margin-left: 0;
     }
     .video-content video {
-        width: 370px;
+        width: 388px;
         height: 259px;
         object-fit: cover;
     }
     .video-content__left video {
-        width: 370px;
+        width: 388px;
         height: 259px;
         object-fit: cover;
     }
@@ -222,16 +218,12 @@
         flex-direction: column;
     }
     .service-img{
-        width: 370px;
+        width: 388px;
     }
-    .ladi-number__percent {
-        position: absolute;
-        left: 68%;
-        top: 35%;
-    }
+
     .teeth-section {
         display: flex;
-        width: 370px;
+        width: 388px;
         background-color: #ffff;
         align-items: center;
         border-radius: 12px;
@@ -252,7 +244,7 @@
         font-size: 18px;
         font-weight: bold;
         line-height: 1;
-        width: 370px;
+        width: 383px;
         color: rgb(38, 38, 38);
     }
 }
